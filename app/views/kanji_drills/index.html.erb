@@ -1,0 +1,35 @@
+<h3>Choose the correct translation:</h3>
+<h4><%=@word.native_reading%></h4>
+
+
+
+<%= content_tag "div", id: "form", data: {answer: @word.translated_reading } do %>
+  <form id='quiz_form'>
+  <%@readings.each do |reading|%>
+    <p><input type="radio" name='drill' value='<%=reading%>' ><%=reading%></p>
+  <%end%>
+  </form>
+  <button id='submit' class='btn btn-primary'>Check</button>
+<% end %>
+
+<div id='warning' class="panel panel-danger half-width">
+  <div class="panel-heading">Incorrect answer</div>
+  <div class="panel-body">Try again</div>
+</div>
+
+<script>
+'use strict'
+$('#warning').hide();
+$('#submit').click(function(){
+  let correct_answer = $('#form').data('answer');
+  let checked_answer = $( "input:checked" ).val();
+  if(correct_answer == checked_answer){
+    location.reload();
+  } else {
+    $('#warning').fadeToggle( "slow", "linear" );
+    setTimeout(function(){
+      $('#warning').fadeToggle( "slow", "linear" );
+    },1000)
+  };
+});
+</script>

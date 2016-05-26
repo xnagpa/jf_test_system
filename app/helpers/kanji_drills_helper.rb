@@ -1,0 +1,2 @@
+module KanjiDrillsHelper
+end

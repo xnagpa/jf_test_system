@@ -1,0 +1,2 @@
+module VocabularyDrillsHelper
+end

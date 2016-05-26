@@ -1,0 +1,14 @@
+<%@collections.each do |collection|%>
+  <div class='row'>
+    <div class="col-md-12">
+      <h4><%=collection.title%></h4>
+      <image src=<%=collection.picture_url%> />
+      <ul>
+        <li><a href=<%=text_book_collection_vocabulary_drills_path(collection.id)%>>Vocabulary drills</a></li>
+       <li><a href=<%=text_book_collection_kanji_drills_path(collection.id)%>>Kanji drills</a></li>
+      </ul>
+    </div>
+  </div>
+<%end%>
+
+

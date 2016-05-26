@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JfTestSystem</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class='container'>
+  <div class='row header'>
+    <div class="col-md-6">
+      <h1><a href='<%=root_path%>'>Marugoto kanji drill</a></h1>
+    </div>
+    <div class="col-md-6">
+      <h1><a href='<%=root_path%>'>Japan foundation</a></h1>
+    </div>
+  </div>
+      <%= yield %>
+</div>
+</body>
+</html>
