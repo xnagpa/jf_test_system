@@ -18,11 +18,10 @@
 </div>
 
 <script>
-'use strict'
 $('#warning').hide();
 $('#submit').click(function(){
-  let correct_answer = $('#form').data('answer');
-  let checked_answer = $( "input:checked" ).val();
+  var correct_answer = $('#form').data('answer');
+  var checked_answer = $( "input:checked" ).val();
   if(correct_answer == checked_answer){
     location.reload();
   } else {
