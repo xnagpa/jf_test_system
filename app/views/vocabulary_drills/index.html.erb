@@ -4,15 +4,15 @@
 <%= content_tag "div", id: "form", data: {answer: @word.translated_reading } do %>
   <form id='quiz_form'>
   <%@readings.each do |reading|%>
-    <p><input type="radio" name='drill' value='<%=reading%>' ><%=reading%></p>
+    <p><input type="radio" name='drill' value=  '<%=reading%>' >  <%=reading%></p>
   <%end%>
   </form>
   <button id='submit' class='btn btn-primary'>Check</button>
 <% end %>
 
 <div id='warning' class="panel panel-danger half-width">
-  <div class="panel-heading">Incorrect answer</div>
-  <div class="panel-body">Try again</div>
+  <div class="panel-heading">Не угадали</div>
+  <div class="panel-body">Попробуйте еще раз</div>
 </div>
 
 <script>
