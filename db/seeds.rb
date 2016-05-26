@@ -10,19 +10,6 @@
   TextBookCollection.create(title:'Marugoto 3', picture_url: 'http://jfstandard.jp/images/language/img_first_understand02_01.gif')
   TextBookCollection.create(title:'Marugoto 4', picture_url: 'http://jfstandard.jp/images/language/img_first_active01_03.gif')
 
-  VocabularyDrillItem.create(native_reading: 'ありがとう', translated_reading: 'Thank you', text_book_collection_id: TextBookCollection.all[1].id)
-  VocabularyDrillItem.create(native_reading: 'むね', translated_reading: 'chest', text_book_collection_id: TextBookCollection.all[1].id)
-  VocabularyDrillItem.create(native_reading: 'インターネット', translated_reading: 'Internets', text_book_collection_id: TextBookCollection.all[1].id)
-  VocabularyDrillItem.create(native_reading: 'しっけん', translated_reading: 'Test', text_book_collection_id: TextBookCollection.all[1].id)
-  VocabularyDrillItem.create(native_reading: 'くつ', translated_reading: 'Shoes', text_book_collection_id: TextBookCollection.all[1].id)
-  VocabularyDrillItem.create(native_reading: 'コンプウーター', translated_reading: 'Computer', text_book_collection_id: TextBookCollection.all[1].id)
-
-  VocabularyDrillItem.create(native_reading: 'ありがとう', translated_reading: 'Thank you', text_book_collection_id: TextBookCollection.all[0].id)
-  VocabularyDrillItem.create(native_reading: 'むね', translated_reading: 'chest', text_book_collection_id: TextBookCollection.all[0].id)
-  VocabularyDrillItem.create(native_reading: 'インターネット', translated_reading: 'Internets', text_book_collection_id: TextBookCollection.all[0].id)
-  VocabularyDrillItem.create(native_reading: 'しっけん', translated_reading: 'Test', text_book_collection_id: TextBookCollection.all[0].id)
-  VocabularyDrillItem.create(native_reading: 'くつ', translated_reading: 'Shoes', text_book_collection_id: TextBookCollection.all[0].id)
-  VocabularyDrillItem.create(native_reading: 'コンプウーター', translated_reading: 'Computer', text_book_collection_id: TextBookCollection.all[0].id)
 
   VocabularyDrillItem.create(native_reading: '～ついて', translated_reading: 'о　～', text_book_collection_id: TextBookCollection.all[2].id)
   VocabularyDrillItem.create(native_reading: '１ばんめ', translated_reading: 'первый (по счету)', text_book_collection_id: TextBookCollection.all[2].id)
@@ -66,27 +53,6 @@
   VocabularyDrillItem.create(native_reading: 'やさしい', translated_reading: 'добрый', text_book_collection_id: TextBookCollection.all[2].id)
   VocabularyDrillItem.create(native_reading: 'りょこう', translated_reading: 'путешествие, поездка', text_book_collection_id: TextBookCollection.all[2].id)
 
-  VocabularyDrillItem.create(native_reading: 'ありがとう', translated_reading: 'Thank you', text_book_collection_id: TextBookCollection.all[3].id)
-  VocabularyDrillItem.create(native_reading: 'むね', translated_reading: 'chest', text_book_collection_id: TextBookCollection.all[3].id)
-  VocabularyDrillItem.create(native_reading: 'インターネット', translated_reading: 'Internets', text_book_collection_id: TextBookCollection.all[3].id)
-  VocabularyDrillItem.create(native_reading: 'しっけん', translated_reading: 'Test', text_book_collection_id: TextBookCollection.all[3].id)
-  VocabularyDrillItem.create(native_reading: 'くつ', translated_reading: 'Shoes', text_book_collection_id: TextBookCollection.all[3].id)
-  VocabularyDrillItem.create(native_reading: 'コンプウーター', translated_reading: 'Computer', text_book_collection_id: TextBookCollection.all[3].id)
-
-
-  KanjiDrillItem.create(native_reading: '合格する', translated_reading: 'Pass the exam', text_book_collection_id: TextBookCollection.all[0].id)
-  KanjiDrillItem.create(native_reading: '料理', translated_reading: 'Kitchen', text_book_collection_id: TextBookCollection.all[0].id)
-  KanjiDrillItem.create(native_reading: '料金', translated_reading: 'Pass rate', text_book_collection_id: TextBookCollection.all[0].id)
-  KanjiDrillItem.create(native_reading: '成長', translated_reading: 'Good growing', text_book_collection_id: TextBookCollection.all[0].id)
-  KanjiDrillItem.create(native_reading: '成人式', translated_reading: 'Growth ceremony', text_book_collection_id: TextBookCollection.all[0].id)
-  KanjiDrillItem.create(native_reading: '長生き', translated_reading: 'Long life', text_book_collection_id: TextBookCollection.all[0].id)
-
-  KanjiDrillItem.create(native_reading: '合格する', translated_reading: 'Pass the exam', text_book_collection_id: TextBookCollection.all[1].id)
-  KanjiDrillItem.create(native_reading: '料理', translated_reading: 'Kitchen', text_book_collection_id: TextBookCollection.all[1].id)
-  KanjiDrillItem.create(native_reading: '料金', translated_reading: 'Pass rate', text_book_collection_id: TextBookCollection.all[1].id)
-  KanjiDrillItem.create(native_reading: '成長', translated_reading: 'Good growing', text_book_collection_id: TextBookCollection.all[1].id)
-  KanjiDrillItem.create(native_reading: '成人式', translated_reading: 'Growth ceremony', text_book_collection_id: TextBookCollection.all[1].id)
-  KanjiDrillItem.create(native_reading: '長生き', translated_reading: 'Long life', text_book_collection_id: TextBookCollection.all[1].id)
 
 KanjiDrillItem.create(native_reading: '１番目', translated_reading: '１ばんめ(первый (по счету))', text_book_collection_id: TextBookCollection.all[2].id)
 KanjiDrillItem.create(native_reading: '意味', translated_reading: 'いみ(смысл)', text_book_collection_id: TextBookCollection.all[2].id)
@@ -186,10 +152,6 @@ KanjiDrillItem.create(native_reading: '願い事', translated_reading: 'ねが�
 KanjiDrillItem.create(native_reading: '願います', translated_reading: 'ねがいます(желать)', text_book_collection_id: TextBookCollection.all[2].id)
 KanjiDrillItem.create(native_reading: '無料', translated_reading: 'むりょう(бесплатно)', text_book_collection_id: TextBookCollection.all[2].id)
 
-  KanjiDrillItem.create(native_reading: '合格する', translated_reading: 'Pass the exam', text_book_collection_id: TextBookCollection.all[3].id)
-  KanjiDrillItem.create(native_reading: '料理', translated_reading: 'Kitchen', text_book_collection_id: TextBookCollection.all[3].id)
-  KanjiDrillItem.create(native_reading: '料金', translated_reading: 'Pass rate', text_book_collection_id: TextBookCollection.all[3].id)
-  KanjiDrillItem.create(native_reading: '成長', translated_reading: 'Good growing', text_book_collection_id: TextBookCollection.all[3].id)
-  KanjiDrillItem.create(native_reading: '成人式', translated_reading: 'Growth ceremony', text_book_collection_id: TextBookCollection.all[3].id)
-  KanjiDrillItem.create(native_reading: '長生き', translated_reading: 'Long life', text_book_collection_id: TextBookCollection.all[3].id)
+
+
 
