@@ -1,28 +1,14 @@
-== README
+== KANJI DRILL APP
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Simple app I made when I was going to take the Japanese language proficiency test(Noryoku Shikken).
+App provides user with 2 way of studying - translate from Russian to Japanese and from Japanese to Russian. 
+Simple design represents drills as radiobuttons sets. 
+Kanji drills are situated in seeds.rb. 
 
-Things you may want to cover:
+Main features: 
 
-* Ruby version
+* Japanese-Russian drills
 
-* System dependencies
+* Russian-Japanese drills
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Deploy to heroku
